@@ -10,7 +10,7 @@ const About = () => {
         <section className="flex justify-around align-center  flex-col md:flex-row">
           {/* Right side */}
           <div className="md:shadow-2xl md:shadow-red-500 flex justify-center items-center ">
-            <Image src={aboutimage} alt="aboutimage" className=" w-96 mx-2 md:mx-0 my-3 md:rounded-lg md:p-0 md:my-0 rounded-2xl" />
+            <Image src={aboutimage} alt="aboutimage" className=" w-96 mx-2 px-2 md:mx-0 my-3 md:rounded-lg md:p-0 md:my-0 rounded-2xl" />
           </div>
           {/* Left side  */}
                   <div className="ml-10 ">

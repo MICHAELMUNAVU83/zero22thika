@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillDownCircle } from "react-icons/ai";
 
-const Header = () => {
+const Hero = () => {
   return (
     <div>
       <div className="custom-img bg-cover h-[700px] fixed w-full">
@@ -16,4 +16,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Hero;

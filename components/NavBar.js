@@ -4,7 +4,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("transparent");
-  const [textColor, setTextColor] = useState("black");  
+  const [textColor, setTextColor] = useState("white");
 
   useEffect(() => {
     const changeBackground = () => {
@@ -30,7 +30,7 @@ const NavBar = () => {
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
-          <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl ">
+          <h1  className="font-bold text-4xl text-red-600">
             ZERO 22
           </h1>
         </Link>
@@ -46,6 +46,9 @@ const NavBar = () => {
           </Link>
           <Link href="/contact">
             <li className="p-4">Contact</li>
+          </Link>
+          <Link href="/" className="p-4 bg-red-600 text-white ">
+            <li>Book Now</li>
           </Link>
         </ul>
 

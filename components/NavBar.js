@@ -4,16 +4,17 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("transparent");
-  const [textColor, setTextColor] = useState("white");
+  const [textColor, setTextColor] = useState("black");  
 
   useEffect(() => {
     const changeBackground = () => {
       if (window.scrollY >= 80) {
-        setColor("white");
-        setTextColor("black");
-      } else {
-        setColor("transparent");
+        setColor("black");
         setTextColor("white");
+      } 
+      else {
+        setColor("transparent");
+        setTextColor("black");
       }
     };
     window.addEventListener("scroll", changeBackground);
@@ -30,7 +31,7 @@ const NavBar = () => {
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
           <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl ">
-            Captur
+            ZERO 22
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">

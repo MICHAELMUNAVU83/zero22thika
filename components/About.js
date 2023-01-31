@@ -9,8 +9,8 @@ const About = () => {
       <div className="py-10">
         <section className="flex justify-around align-center  flex-col md:flex-row">
           {/* Right side */}
-          <div className="md:shadow-2xl shadow-red-500 flex justify-center items-center ">
-            <Image src={aboutimage} alt="aboutimage" className=" w-96" />
+          <div className="md:shadow-2xl md:shadow-red-500 flex justify-center items-center ">
+            <Image src={aboutimage} alt="aboutimage" className=" w-96  md:rounded-lg rounded-lg" />
           </div>
           {/* Left side  */}
                   <div className="ml-10 ">

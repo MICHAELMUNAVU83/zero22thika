@@ -2,7 +2,6 @@ import Head from "next/head";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";
-import ServiceItem from "@/components/ServiceItem";
 
 export default function Home() {
   return (
@@ -16,7 +15,8 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
-      <ServiceItem />
+     
+     
     </>
   );
 }

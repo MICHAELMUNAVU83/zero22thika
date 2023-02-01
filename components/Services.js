@@ -11,7 +11,7 @@ import { Autoplay ,Pagination} from "swiper";
 const Services = () => {
   return (
     <div className="service-img bg-cover bg-center bg-fixed h-[700px] w-full">
-      <section className="flex flex-col justify-start ml-10 pt-10">
+      <section className="flex flex-col justify-start md:ml-10 pt-10">
         <h1 className="flex text-4xl text-white flex-row">
           {" "}
           <AiOutlineLine className="text-4xl mx-2 text-white" /> Our Services
@@ -23,6 +23,7 @@ const Services = () => {
       </section>
 
       <section className="mt-10 max-w-[1240px] m-auto">
+       
         <Swiper
           modules={[Autoplay ,Pagination]}
           spaceBetween={20}
@@ -64,6 +65,7 @@ const Services = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Voluptates, quod.
                 </p>
+                
               </div>
             </div>
           </SwiperSlide>

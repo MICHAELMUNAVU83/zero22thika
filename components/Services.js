@@ -1,7 +1,5 @@
 import React from "react";
 import { AiOutlineLine } from "react-icons/ai";
-import ServiceItem from "./ServiceItem";
-import { Swiper, SwiperSlide } from "swiper/react";
 import {GiWeightLiftingUp} from 'react-icons/gi'
 import { MdOutlineFoodBank } from 'react-icons/md'
 import { BiDumbbell } from 'react-icons/bi'
@@ -23,39 +21,7 @@ const Services = () => {
       </section>
 
       <section className="max-w-[1240px] mt-10 mx-auto flex flex-col md:flex-row justify-center items-center">
-        <Swiper
-          slidesPerView={1}
-          spaceBetween={50}
-          loop="true"
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          draggable="true"
-          breakpoints={{
-            // when window width is >= 640px
-            640: {
-              slidesPerView: 2,
-              spaceBetween: 30,
-            },
-            // when window width is >= 768px
-            768: {
-              slidesPerView: 3,
-              spaceBetween: 40,
-            },
-            // when window width is >= 1024px
-          }}
-        >
-          <SwiperSlide>
-            <ServiceItem name="Personal Training" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <ServiceItem name="Personal Training" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <ServiceItem name="Personal Training" />
-          </SwiperSlide>
-        </Swiper>
+      
       </section>
     </div>
   );

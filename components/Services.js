@@ -8,6 +8,7 @@ import { GiMuscleUp } from "react-icons/gi";
 import { GiHealthPotion } from "react-icons/gi";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper";
+import 'swiper/css';
 const Services = () => {
   return (
     <div className="service-img bg-cover bg-center bg-fixed h-[700px] w-full">

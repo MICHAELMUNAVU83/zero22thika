@@ -7,6 +7,7 @@ import { FaRunning } from "react-icons/fa";
 import { GiMuscleUp } from "react-icons/gi";
 import { GiHealthPotion } from "react-icons/gi";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper";
 const Services = () => {
   return (
     <div className="service-img bg-cover bg-center bg-fixed h-[700px] w-full">
@@ -26,10 +27,10 @@ const Services = () => {
           spaceBetween={20}
           slidesPerView={1}
           loop="true"
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
+          // autoplay={{
+          //   delay: 2500,
+          //   disableOnInteraction: false,
+          // }}
           pagination={{
             clickable: true,
           }}
@@ -59,6 +60,9 @@ const Services = () => {
                   Voluptates, quod.
                 </p>
               </div>
+              <p className="absolute left-0 py-4 bottom-0 bg-red-600 w-full text-white text-center ">
+                uhnm
+              </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -66,13 +70,16 @@ const Services = () => {
               <div className="flex flex-col justify-center items-center">
                 <GiHealthPotion className="text-6xl text-gray-500" />
                 <h1 className="text-2xl font-bold text-gray-500">
-                 Cardio Vascular Training
+                  Cardio Vascular Training
                 </h1>
                 <p className="text-gray-500 text-center">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Voluptates, quod.
                 </p>
               </div>
+              <p className="absolute left-0 py-4 bottom-0 bg-red-600 w-full text-white text-center ">
+                uhnm
+              </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -87,6 +94,9 @@ const Services = () => {
                   Voluptates, quod.
                 </p>
               </div>
+              <p className="absolute left-0 py-4 bottom-0 bg-red-600 w-full text-white text-center ">
+                uhnm
+              </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -101,6 +111,9 @@ const Services = () => {
                   Voluptates, quod.
                 </p>
               </div>
+              <p className="absolute left-0 py-4 bottom-0 bg-red-600 w-full text-white text-center ">
+                uhnm
+              </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -113,6 +126,9 @@ const Services = () => {
                   Voluptates, quod.
                 </p>
               </div>
+              <p className="absolute left-0 py-4 bottom-0 bg-red-600 w-full text-white text-center ">
+                uhnm
+              </p>
             </div>
           </SwiperSlide>
 
@@ -126,6 +142,9 @@ const Services = () => {
                   Voluptates, quod.
                 </p>
               </div>
+              <p className="absolute left-0 py-4 bottom-0 bg-red-600 w-full text-white text-center ">
+                uhnm
+              </p>
             </div>
           </SwiperSlide>
         </Swiper>

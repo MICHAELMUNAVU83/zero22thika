@@ -24,13 +24,14 @@ const Services = () => {
 
       <section className="mt-10 max-w-[1240px] m-auto">
         <Swiper
+          modules={[Autoplay, Pagination]}
           spaceBetween={20}
           slidesPerView={1}
           loop="true"
-          // autoplay={{
-          //   delay: 2500,
-          //   disableOnInteraction: false,
-          // }}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           pagination={{
             clickable: true,
           }}
@@ -60,9 +61,6 @@ const Services = () => {
                   Voluptates, quod.
                 </p>
               </div>
-              <p className="absolute left-0 py-4 bottom-0 bg-red-600 w-full text-white text-center ">
-                uhnm
-              </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -77,9 +75,6 @@ const Services = () => {
                   Voluptates, quod.
                 </p>
               </div>
-              <p className="absolute left-0 py-4 bottom-0 bg-red-600 w-full text-white text-center ">
-                uhnm
-              </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -94,9 +89,6 @@ const Services = () => {
                   Voluptates, quod.
                 </p>
               </div>
-              <p className="absolute left-0 py-4 bottom-0 bg-red-600 w-full text-white text-center ">
-                uhnm
-              </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -111,9 +103,6 @@ const Services = () => {
                   Voluptates, quod.
                 </p>
               </div>
-              <p className="absolute left-0 py-4 bottom-0 bg-red-600 w-full text-white text-center ">
-                uhnm
-              </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -126,9 +115,6 @@ const Services = () => {
                   Voluptates, quod.
                 </p>
               </div>
-              <p className="absolute left-0 py-4 bottom-0 bg-red-600 w-full text-white text-center ">
-                uhnm
-              </p>
             </div>
           </SwiperSlide>
 
@@ -142,9 +128,6 @@ const Services = () => {
                   Voluptates, quod.
                 </p>
               </div>
-              <p className="absolute left-0 py-4 bottom-0 bg-red-600 w-full text-white text-center ">
-                uhnm
-              </p>
             </div>
           </SwiperSlide>
         </Swiper>

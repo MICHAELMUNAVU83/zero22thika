@@ -31,10 +31,12 @@ const Services = () => {
           loop="true"
           autoplay={{
             delay: 2500,
-            disableOnInteraction: false,
+            disableOnInteraction: true,
+            
           }}
           pagination={{
             clickable: true,
+            el: ".swiper-pagination",
           }}
           breakpoints={{
             // when window width is >= 640px

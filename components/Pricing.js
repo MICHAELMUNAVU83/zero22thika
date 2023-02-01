@@ -10,7 +10,7 @@ const Pricing = () => {
       <div className="flex justify-around flex-col items-center max-w-[1240px] mx-auto mt-10 md:flex-row">
         <div className="h-96 w-80 mt-10 md:mt-0 border-2 border-white">
           <div className="bg-red-600 h-20 w-20 flex rounded-full my-2 mx-2">
-            <BiDumbbell className="text-6xl text-white mx-2 my-2" />
+            <BiDumbbell className="text-6xl text-white mx-2 my-2" style={{rotate: "45deg"}} />
           </div>
           <p className="text-white mx-2">1 Month</p>
           <p className="text-red-600 mx-2 mb-2">3500/=<span className="text-white ml-2">(1 Person) </span></p>
@@ -50,7 +50,7 @@ const Pricing = () => {
         </div>
         <div className="h-96 w-80 mt-10 md:mt-0 border-2 border-white">
           <div className="bg-red-600 h-20 w-20 flex rounded-full my-2 mx-2">
-            <BiDumbbell className="text-6xl text-white mx-2 my-2" />
+            <BiDumbbell className="text-6xl text-white mx-2 my-2" style={{rotate: "45deg"}} />
           </div>
           <p className="text-white mx-2">1 Month</p>
           <p className="text-red-600 mx-2 mb-2">6500/=<span className="text-white ml-2">(Couple rate , 2 people) </span></p>
@@ -89,7 +89,7 @@ const Pricing = () => {
         </div>
         <div className="h-96 w-80 mt-10 md:mt-0 border-2 border-white">
           <div className="bg-red-600 h-20 w-20 flex rounded-full my-2 mx-2">
-            <BiDumbbell className="text-6xl text-white mx-2 my-2" />
+            <BiDumbbell className="text-6xl text-white mx-2 my-2" style={{rotate: "45deg"}} />
           </div>
           <p className="text-white mx-2">1 Month</p>
           <p className="text-red-600 mx-2 mb-2">3000/=<span className="text-white ml-2">(Students and Senior Citizens) </span></p>

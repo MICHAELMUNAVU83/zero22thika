@@ -5,13 +5,12 @@ import programpic from "../public/programpic.jpg";
 
 const Programs = () => {
   const [selectedDay, setSelectedDay] = useState("Monday");
-  console.log(programmes);
   return (
     <div className="program-img bg-cover bg-center bg-fixed h-[600px] md:h-[500px] w-full">
       <section className="flex flex-col justify-start ml-10 pt-10">
-        <h1 className="flex text-4xl  text-white  flex-row">
+        <h1 className="flex text-4xl  text-red-600 font-extrabold flex-row">
           {" "}
-          <AiOutlineLine className="text-4xl mx-2  text-white" /> Our Services
+          <AiOutlineLine className="text-4xl mx-2  text-red-600" /> Our Services
         </h1>
         <h1 className="  text-white font-bold text-4xl">
           PUSH YOUR LIMITS FORWARD

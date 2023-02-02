@@ -6,6 +6,7 @@ import Pricing from "@/components/Pricing";
 import Footer from "@/components/Footer";
 import Trainers from "@/components/Trainers";
 import Programs from "@/components/Programs";
+
 export default function Home() {
   return (
     <>

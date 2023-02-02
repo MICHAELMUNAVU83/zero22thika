@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="footer-img bg-cover bg-center bg-no-repeat   h-96">
-          <div className="h-full  bg-black/80">
+          <div className="h-full  bg-black/60">
           <section className="flex flex-col md:flex-row justify-center md:items-center text-center  md:justify-around h-full">
           <div>
             <h1 className="text-2xl font-bold text-red-600">Useful Links</h1>

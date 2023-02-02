@@ -5,13 +5,19 @@ const Programs = () => {
   console.log(programmes);
   return (
     <div>
-      <section className=" mt-4 md:flex justify-around text-center container md:px-32 grid grid-cols-2 gap-x-48 gap-y-3 md:gap-x-0 px-3 ">
-        <p className="bg-red-600 p-2 text-1xl text-white">Monday</p>
-        <p className="bg-red-600 p-2 text-1xl text-white">Tuesday</p>
-        <p className="bg-red-600 p-2 text-1xl text-white">Wednesday</p>
-        <p className="bg-red-600 p-2 text-1xl text-white">Thursday</p>
-        <p className="bg-red-600 p-2 text-1xl text-white">Friday</p>
-        <p className="bg-red-600 p-2 text-1xl text-white">Saturday</p>
+      <section className=" mt-4 flex justify-around max-w-[1240px] flex-wrap">
+        <p className="bg-red-600 p-2 text-1xl text-white m-3 md:m-0">Monday</p>
+        <p className="bg-red-600 p-2 text-1xl text-white m-3 md:m-0">Tuesday</p>
+        <p className="bg-red-600 p-2 text-1xl text-white m-3 md:m-0">
+          Wednesday
+        </p>
+        <p className="bg-red-600 p-2 text-1xl text-white m-3 md:m-0">
+          Thursday
+        </p>
+        <p className="bg-red-600 p-2 text-1xl text-white m-3 md:m-0">Friday</p>
+        <p className="bg-red-600 p-2 text-1xl text-white m-3 md:m-0">
+          Saturday
+        </p>
       </section>
     </div>
   );

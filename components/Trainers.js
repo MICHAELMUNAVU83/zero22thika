@@ -17,17 +17,32 @@ const Trainers = () => {
         <h1 className=" font-bold text-4xl">EXPERIENCED TRAINERS</h1>
       </section>
       <section className="flex justify-around mb-10 mt-10 flex-col items-center max-w-[1240px] mx-auto md:flex-row">
-        <div className="shadow-xl shadow-red-500 flex flex-col my-4">
-          <Image src={trainer1} alt="trainer1" className="w-80 h-80 md:h-96" />
-          <p className="p-2 bg-red-600 text-center text-white">Michael Munavu</p>
+        <div className="md:w-80 h-80 md:h-96 hover:bg-red-600  duration-300 ease-in-out relative mb-10 w-72 md:m-0">
+          <Image
+            className="absolute w-80 h-80 inset-0 bg-cover bg-center z-0 shadow-xl shadow-red-600 "
+            src={trainer4}
+          />
+          <div className="opacity-0 hover:opacity-100 duration-300 ease-in-out absolute inset-0 z-10 flex justify-center items-end my-4 text-2xl text-white font-semibold">
+            Dwayne
+          </div>
         </div>
-        <div className="shadow-xl shadow-red-500 flex flex-col my-4">
-          <Image src={trainer4} alt="trainer4" className="w-80 h-80 md:h-96" />
-          <p className="p-2 bg-red-600 text-center text-white">Michael Munavu</p>
+        <div className="md:w-80 h-80 md:h-96 hover:bg-red-600  duration-300 ease-in-out relative mb-10 w-72 md:m-0">
+          <Image
+            className="absolute w-80 h-80 inset-0 bg-cover bg-center z-0 shadow-xl shadow-red-600 "
+            src={trainer4}
+          />
+          <div className="opacity-0 hover:opacity-100 duration-300 absolute ease-in-out inset-0 z-10 flex justify-center items-end my-4 text-2xl text-white font-semibold">
+            Dwayne
+          </div>
         </div>
-        <div className="shadow-xl shadow-red-500 flex flex-col my-4">
-          <Image src={trainer3} alt="trainer3" className="w-80 h-80 md:h-96" />
-          <p className="p-2 bg-red-600 text-center text-white">Michael Munavu</p>
+        <div className="md:w-80 h-80 md:h-96 hover:bg-red-600  duration-300 ease-in-out relative mb-10 w-72 md:m-0">
+          <Image
+            className="absolute w-80 h-80 inset-0 bg-cover bg-center z-0 shadow-xl shadow-red-600 "
+            src={trainer4}
+          />
+          <div className="opacity-0 hover:opacity-100 duration-300 absolute ease-in-out inset-0 z-10 flex justify-center items-end my-4 text-2xl text-white font-semibold">
+            Dwayne
+          </div>
         </div>
       </section>
     </div>

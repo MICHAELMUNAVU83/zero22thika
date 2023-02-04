@@ -17,22 +17,22 @@ const About = () => {
           </div>
           {/* Left side  */}
           <div className="ml-10 ">
-            <h1 className="text-4xl font-bold font-bebas text-red-600 flex">
+            <h1 className="text-4xl font-bold krona text-red-600 flex">
               <CgGym className="text-4xl text-red-600 " /> ABOUT US
             </h1>
-            <h2 className="text-2xl font-bold text-break font-dancing my-3">
+            <h2 className="text-2xl font-bold text-break alfa my-3">
               <p>SAFE BODY BUILDING </p>
               <p>SAFE BODY BUILDING </p>
               <p>SAFE BODY BUILDING </p>
             </h2>
 
-            <p className="text-lg text-gray-500 w-80 my-3 ">
+            <p className="text-lg comfortaa text-gray-500 w-80 my-3 ">
               Brook presents your services with flexible, convenient and cdpose
               layouts. You can select your favorite layouts & elements for cular
               ts with unlimited ustomization possibilities. Pixel-perfect
               replication of the designers is intended.
             </p>
-            <p className="text-sm text-gray-500 w-80 my-3">
+            <p className="text-md text-gray-500 w-80 my-3 krona">
               Brook presents your services with flexible, convefnient and chient
               anipurpose layouts. You can select your favorite layouts.
             </p>

@@ -14,14 +14,14 @@ const Services = () => {
     <div  id="services" className="service-img bg-cover bg-center bg-fixed h-[700px] w-full">
       <div className="bg-black/60 h-full">
         <section className="flex flex-col justify-start ml-10 pt-10">
-          <h1 className="flex text-4xl text-red-600 flex-row">
+          <h1 className=" krona font-bold flex text-4xl text-red-600 flex-row">
             {" "}
             <CgGym className="text-4xl mx-2 text-red-600" /> Our Services
           </h1>
-          <h1 className="text-white font-bold text-4xl">
+          <h1 className="text-white font-semibold dancing text-4xl">
             PUSH YOUR LIMITS FORWARD
           </h1>
-          <h1 className="text-white font-bold text-4xl">WE OFFER TO YOU</h1>
+          <h1 className="text-white font-semibold  dancing text-4xl">WE OFFER TO YOU</h1>
         </section>
 
         <section className="mt-10 max-w-[1240px] m-auto">
@@ -56,7 +56,7 @@ const Services = () => {
               <div className="bg-white  shadow-xl p-4 h-80 md:mx-0 mx-4">
                 <div className="flex flex-col justify-center items-center">
                   <GiWeightLiftingUp className="text-6xl text-gray-500" />
-                  <h1 className="text-2xl font-bold text-gray-500">
+                  <h1 className="text-2xl text-center font-bold text-gray-500">
                     Weight Loss
                   </h1>
                   <p className="text-gray-500 text-center">
@@ -70,7 +70,7 @@ const Services = () => {
               <div className="bg-white  shadow-xl p-4 h-80 md:mx-0 mx-4">
                 <div className="flex flex-col justify-center items-center">
                   <GiHealthPotion className="text-6xl text-gray-500" />
-                  <h1 className="text-2xl font-bold text-gray-500">
+                  <h1 className="text-2xl text-center font-bold text-gray-500">
                     Cardio Vascular Training
                   </h1>
                   <p className="text-gray-500 text-center">

@@ -4,7 +4,7 @@ import { AiOutlineCheck } from "react-icons/ai";
 const Pricing = () => {
   return (
     <div id="pricing" className="bg-black h-full pb-20 md:h-[100vh]">
-      <h1 className="text-white text-5xl text-center pt-20 font-bold font-krona">
+      <h1 className="text-white text-5xl text-center pt-20 font-bold font-roboto">
         PRICING
       </h1>
       <div className="flex justify-around flex-col items-center max-w-[1240px] mx-auto mt-10 md:flex-row">

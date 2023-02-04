@@ -11,7 +11,10 @@ import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
 const Services = () => {
   return (
-    <div  id="services" className="service-img bg-cover bg-center bg-fixed h-[700px] w-full">
+    <div
+      id="services"
+      className="service-img bg-cover bg-center bg-fixed h-[700px] w-full"
+    >
       <div className="bg-black/60 h-full">
         <section className="flex flex-col justify-start ml-10 pt-10">
           <h1 className=" krona font-bold flex text-4xl text-red-600 flex-row">
@@ -19,9 +22,8 @@ const Services = () => {
             <CgGym className="text-4xl mx-2 text-red-600" /> Our Services
           </h1>
           <h1 className="text-white font-semibold  text-4xl">
-            PUSH YOUR LIMITS FORWARD
+            WE OFFER TO YOU
           </h1>
-          <h1 className="text-white font-semibold   text-4xl">WE OFFER TO YOU</h1>
         </section>
 
         <section className="mt-10 max-w-[1240px] m-auto">
@@ -56,12 +58,12 @@ const Services = () => {
               <div className="bg-white  shadow-xl p-4 h-80 md:mx-0 mx-4">
                 <div className="flex flex-col justify-center items-center">
                   <GiWeightLiftingUp className="text-6xl text-gray-500" />
-                  <h1 className="text-2xl text-center font-bold text-gray-500">
+                  <h1 className="text-2xl text-center font-bold text-red-600">
                     Weight Loss
                   </h1>
                   <p className="text-gray-500 text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptates, quod.
+                    We offer a wide range of weight loss programs to help you
+                    achieve your goals.
                   </p>
                 </div>
               </div>
@@ -70,12 +72,12 @@ const Services = () => {
               <div className="bg-white  shadow-xl p-4 h-80 md:mx-0 mx-4">
                 <div className="flex flex-col justify-center items-center">
                   <GiHealthPotion className="text-6xl text-gray-500" />
-                  <h1 className="text-2xl text-center font-bold text-gray-500">
+                  <h1 className="text-2xl text-center font-bold text-red-600">
                     Cardio Vascular Training
                   </h1>
                   <p className="text-gray-500 text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptates, quod.
+                    With our cardio vascular training and daily aerobics classes
+                    you will be able to achieve your goals.
                   </p>
                 </div>
               </div>
@@ -84,40 +86,27 @@ const Services = () => {
               <div className="bg-white  shadow-xl p-4 h-80 md:mx-0 mx-4">
                 <div className="flex flex-col justify-center items-center">
                   <FaRunning className="text-6xl text-gray-500" />
-                  <h1 className="text-2xl font-bold text-gray-500">
+                  <h1 className="text-2xl font-bold text-red-600">
                     Cardio Training
                   </h1>
                   <p className="text-gray-500 text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptates, quod.
+                    We have a wide range of cardio training equipment to help
+                    you achieve your goals.
                   </p>
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="bg-white  shadow-xl p-4 h-80  md:mx-0 mx-4">
-                <div className="flex flex-col justify-center items-center">
-                  <GiWeightLiftingUp className="text-6xl text-gray-500" />
-                  <h1 className="text-2xl font-bold text-gray-500">
-                    Weight Loss
-                  </h1>
-                  <p className="text-gray-500 text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptates, quod.
-                  </p>
-                </div>
-              </div>
-            </SwiperSlide>
+
             <SwiperSlide>
               <div className="bg-white  shadow-xl p-4 h-80  md:mx-0 mx-4">
                 <div className="flex flex-col justify-center items-center">
                   <MdOutlineFoodBank className="text-6xl text-gray-500" />
-                  <h1 className="text-2xl font-bold text-gray-500">
+                  <h1 className="text-2xl font-bold text-red-600">
                     Nutrition
                   </h1>
                   <p className="text-gray-500 text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptates, quod.
+                    We offer a wide range of nutrition programs to help you
+                    achieve your goals.
                   </p>
                 </div>
               </div>
@@ -127,10 +116,10 @@ const Services = () => {
               <div className="bg-white  shadow-xl p-4 h-80  md:mx-0 mx-4">
                 <div className="flex flex-col justify-center items-center">
                   <BiDumbbell className="text-6xl text-gray-500" />
-                  <h1 className="text-2xl font-bold text-gray-500">Strength</h1>
+                  <h1 className="text-2xl font-bold text-red-600">Strength</h1>
                   <p className="text-gray-500 text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptates, quod.
+                    We offer a wide range of strength training programs to help
+                    you achieve your goals.
                   </p>
                 </div>
               </div>

@@ -20,21 +20,19 @@ const About = () => {
             <h1 className="text-4xl font-bold krona text-red-600 flex">
               <CgGym className="text-4xl text-red-600 " /> ABOUT US
             </h1>
-            <h2 className="text-2xl font-bold text-break  my-3">
-              <p>SAFE BODY BUILDING </p>
-              <p>SAFE BODY BUILDING </p>
-              <p>SAFE BODY BUILDING </p>
+            <h2 className="text-2xl font-bold text-break fotnt-bebas  my-3">
+              <p>World Class Trainers</p>
+              <p>High Quality Equipment</p>
+              <p>Best Gym in Town</p>
             </h2>
 
             <p className="text-lg text-gray-500 w-80 my-3 ">
-              Brook presents your services with flexible, convenient and cdpose
-              layouts. You can select your favorite layouts & elements for cular
-              ts with unlimited ustomization possibilities. Pixel-perfect
-              replication of the designers is intended.
+              Zero 22 is a gym that is located in the heart of the thika. We have
+              the best trainers and the best equipment. We are the best gym in
+              town if you want to look good and feel good.
             </p>
             <p className="text-md text-gray-500 w-80 my-3 krona">
-              Brook presents your services with flexible, convefnient and chient
-              anipurpose layouts. You can select your favorite layouts.
+              Don't be left behind, join us today and get the best out of your
             </p>
 
             <button className="bg-red-600 text-white px-6 py-4 my-3 ">

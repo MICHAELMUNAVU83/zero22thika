@@ -8,12 +8,12 @@ const Trainers = () => {
   return (
     <div id="trainers" className=" h-full">
       <section className="flex flex-col justify-start ml-10 pt-10 ">
-        <h1 className="flex text-4xl  flex-row">
+        <h1 className="flex text-4xl text-red-600 font-semibold  flex-row">
           {" "}
-          <CgGym className="text-4xl text-red-600 mx-2 " /> Our Team Members
+          <CgGym className="text-4xl text-red-600 mx-2 " /> Our Team 
         </h1>
-        <h1 className=" font-bold text-red-600 text-4xl">MEET OUR MOST</h1>
-        <h1 className=" font-bold text-red-600 text-4xl">
+        <h1 className=" font-bold  text-4xl">MEET OUR MOST</h1>
+        <h1 className=" font-bold  text-4xl">
           EXPERIENCED TRAINERS
         </h1>
       </section>

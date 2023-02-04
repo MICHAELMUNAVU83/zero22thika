@@ -31,50 +31,72 @@ const Footer = () => {
               </Link>
             </ul>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <h1 className="text-2xl font-bold text-red-600">Open Hours</h1>
             <ul className="text-white">
               <li>Monday - Friday</li>
               <li>(5:45am - 9:00pm)</li>
               <li>Saturday</li>
               <li>(8:00am - 12:00pm)</li>
-              <li>Sunday -Closed</li>
+              <li>Sunday - Closed</li>
             </ul>
           </div>
-          <div className="h-full ">
+          <div>
             <h1 className="text-2xl font-bold text-red-600">Contact Us</h1>
-            <ul className="text-white text-center">
-              <Link href="/">
-                <li className="flex items-center">
+
+            <div className="text-white flex flex-col items-start">
+              <div className="flex items-center">
+                <Link
+                  href="/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="flex items-center"
+                >
                   <IoLocationSharp className="mx-2" /> Hanton Towers, Thika
                   Kenya
-                </li>
-              </Link>
-              <Link
-                href="https://wa.me/1234567890"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <li className="flex items-center">
+                </Link>
+              </div>
+              <div className="flex items-center">
+                <Link
+                  href="https://wa.me/1234567890"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="flex items-center"
+                >
                   <IoLogoWhatsapp className="mx-2" /> 123-456-7890
-                </li>
-              </Link>
-              <Link href="tel:1234567890" rel="noreferrer" target="_blank">
-                <li className="flex items-center">
+                </Link>
+              </div>
+              <div className="flex items-center">
+                <Link
+                  href="tel:1234567890"
+                  rel="noreferrer"
+                  className="flex items-center"
+                  target="_blank"
+                >
                   <IoCall className="mx-2" /> 123-456-7890
-                </li>
-              </Link>
-              <Link href="tiktok.com" rel="noreferrer" target="_blank">
-                <li className="flex items-center">
+                </Link>
+              </div>
+              <div className="flex items-center">
+                <Link
+                  href="tiktok.com"
+                  rel="noreferrer"
+                  className="flex items-center"
+                  target="_blank"
+                >
                   <SiTiktok className="mx-2" /> Tiktok
-                </li>
-              </Link>
-              <Link href="instagram.com" rel="noreferrer" target="_blank">
-                <li className="flex items-center">
+                </Link>
+              </div>
+              <div className="flex items-center">
+                <Link
+                  href="instagram.com"
+                  rel="noreferrer"
+                  className="flex items-center"
+                  target="_blank"
+                >
                   <AiFillInstagram className="mx-2" /> Instagram
-                </li>
-              </Link>
-            </ul>
+                </Link>
+              </div>
+            </div>
           </div>
         </section>
       </div>

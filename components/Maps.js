@@ -1,26 +1,20 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "mapbox-gl/dist/mapbox-gl.css";
-import Map, {
-  Marker,
-  NavigationControl,
-  GeolocateControl,
-  FullscreenControl,
-} from "react-map-gl";
-
+import Map, { Marker } from "react-map-gl";
+import {HiLocationMarker} from 'react-icons/hi'
 const Maps = () => {
   return (
     <Map
       style={{
         margin: "auto",
-        width: "100vw",
         marginTop: "20px",
         height: "500px",
         borderRadius: "5px",
       }}
       initialViewState={{
-        latitude: -1.102554,
-        longitude: 37.013193,
-        zoom: 10,
+        latitude: -1.038757,
+        longitude: 37.083375,
+        zoom: 12,
       }}
       mapboxAccessToken={
         "pk.eyJ1IjoiYW5uZXRvdG9oIiwiYSI6ImNsYjB2cDl1dzFrOTQzcHFtOWdxcHBjbGgifQ.LADz9TYffPhRsjZ_O_hUHw"
@@ -28,19 +22,12 @@ const Maps = () => {
       mapStyle="mapbox://styles/mapbox/streets-v11" // This is the style of the map
     >
       <Marker
-        latitude={-1.102554}
-        longitude={37.013193}
+        latitude={-1.034864}
+        longitude={37.073487}
         offsetLeft={-20}
         offsetTop={-10}
       >
-        <div
-          style={{
-            width: "40px",
-            height: "40px",
-            backgroundColor: "red",
-            borderRadius: "50%",
-          }}
-        ></div>
+        <HiLocationMarker className="text-4xl text-red-600" />
       </Marker>
     </Map>
   );

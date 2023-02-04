@@ -2,10 +2,14 @@ import React from "react";
 import Link from "next/link";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { IoCall } from "react-icons/io5";
+
+import { AiFillInstagram } from "react-icons/ai";
+import { SiTiktok } from "react-icons/si";
+import { IoLocationSharp } from "react-icons/io5";
 const Footer = () => {
   return (
     <div className="footer-img bg-cover bg-center bg-no-repeat   h-full">
-      <div className="h-full  bg-black/60">
+      <div className="h-full  bg-black/80">
         <section className="flex flex-col md:flex-row justify-center md:items-center text-center  md:justify-around h-full">
           <div>
             <h1 className="text-2xl font-bold text-red-600">Useful Links</h1>
@@ -34,23 +38,40 @@ const Footer = () => {
               <li>(5:45am - 9:00pm)</li>
               <li>Saturday</li>
               <li>(8:00am - 12:00pm)</li>
+              <li>Sunday -Closed</li>
             </ul>
           </div>
-          <div>
+          <div className="h-full ">
             <h1 className="text-2xl font-bold text-red-600">Contact Us</h1>
-            <ul className="text-white">
+            <ul className="text-white text-center">
+              <Link href="/">
+                <li className="flex items-center">
+                  <IoLocationSharp className="mx-2" /> Hanton Towers, Thika
+                  Kenya
+                </li>
+              </Link>
               <Link
                 href="https://wa.me/1234567890"
                 rel="noreferrer"
                 target="_blank"
               >
-                <li>
-                  <IoLogoWhatsapp /> 123-456-7890
+                <li className="flex items-center">
+                  <IoLogoWhatsapp className="mx-2" /> 123-456-7890
                 </li>
               </Link>
               <Link href="tel:1234567890" rel="noreferrer" target="_blank">
-                <li>
-                  <IoCall /> 123-456-7890
+                <li className="flex items-center">
+                  <IoCall className="mx-2" /> 123-456-7890
+                </li>
+              </Link>
+              <Link href="tiktok.com" rel="noreferrer" target="_blank">
+                <li className="flex items-center">
+                  <SiTiktok className="mx-2" /> Tiktok
+                </li>
+              </Link>
+              <Link href="instagram.com" rel="noreferrer" target="_blank">
+                <li className="flex items-center">
+                  <AiFillInstagram className="mx-2" /> Instagram
                 </li>
               </Link>
             </ul>

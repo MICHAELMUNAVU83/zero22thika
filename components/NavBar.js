@@ -8,7 +8,7 @@ const NavBar = () => {
 
   useEffect(() => {
     const changeBackground = () => {
-      if (window.scrollY >= 80) {
+      if (window.scrollY >= 120) {
         setColor("black");
         setTextColor("white");
       } else {
@@ -47,7 +47,7 @@ const NavBar = () => {
           <Link href="/#trainers">
             <li className="p-4">Our Team</li>
           </Link>
-          <Link href="/" className="p-4 bg-red-600 text-white ">
+          <Link href="/" className="py-4 px-6 bg-red-600 text-white ">
             <li>Join Us</li>
           </Link>
         </ul>

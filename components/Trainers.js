@@ -6,7 +6,7 @@ import trainer4 from "../public/trainer4.jpg";
 import trainer2 from "../public/gymbro.jpg";
 const Trainers = () => {
   return (
-    <div className=" h-full">
+    <div id="trainers" className=" h-full">
       <section className="flex flex-col justify-start ml-10 pt-10 ">
         <h1 className="flex text-4xl  flex-row">
           {" "}

@@ -6,7 +6,7 @@ import programpic from "../public/programpic.jpg";
 const Programs = () => {
   const [selectedDay, setSelectedDay] = useState("Monday");
   return (
-    <div className="program-img bg-cover bg-center bg-fixed h-[600px] md:h-[500px] w-full">
+    <div id="programs" className="program-img bg-cover bg-center bg-fixed h-[600px] md:h-[500px] w-full">
       <div className="bg-black/75 h-full">
         <section className="flex flex-col justify-start ml-10 pt-10">
           <h1 className="flex text-4xl  text-red-600 font-extrabold flex-row">

@@ -56,12 +56,12 @@ const Services = () => {
           >
             <SwiperSlide>
               <div className="bg-white  shadow-xl p-4 h-80 md:mx-0 mx-4">
-                <div className="flex flex-col justify-center items-center">
-                  <GiWeightLiftingUp className="text-6xl text-gray-500" />
-                  <h1 className="text-2xl text-center font-bold text-red-600">
+                <div className="flex flex-col justify-center items-center text-gray-500 hover:hover:text-red-600">
+                  <GiWeightLiftingUp className="text-6xl" />
+                  <h1 className="text-2xl text-center font-bold ">
                     Weight Loss
                   </h1>
-                  <p className="text-gray-500 text-center">
+                  <p className=" text-center">
                     We offer a wide range of weight loss programs to help you
                     achieve your goals.
                   </p>
@@ -70,12 +70,12 @@ const Services = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="bg-white  shadow-xl p-4 h-80 md:mx-0 mx-4">
-                <div className="flex flex-col justify-center items-center">
-                  <GiHealthPotion className="text-6xl text-gray-500" />
-                  <h1 className="text-2xl text-center font-bold text-red-600">
+                <div className="flex flex-col justify-center items-center text-gray-500 hover:hover:text-red-600">
+                  <GiHealthPotion className="text-6xl " />
+                  <h1 className="text-2xl text-center font-bold ">
                     Cardio Vascular Training
                   </h1>
-                  <p className="text-gray-500 text-center">
+                  <p className=" text-center">
                     With our cardio vascular training and daily aerobics classes
                     you will be able to achieve your goals.
                   </p>
@@ -84,12 +84,12 @@ const Services = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="bg-white  shadow-xl p-4 h-80 md:mx-0 mx-4">
-                <div className="flex flex-col justify-center items-center">
-                  <FaRunning className="text-6xl text-gray-500" />
-                  <h1 className="text-2xl font-bold text-red-600">
+                <div className="flex flex-col justify-center items-center text-gray-500 hover:hover:text-red-600">
+                  <FaRunning className="text-6xl " />
+                  <h1 className="text-2xl font-bold ">
                     Cardio Training
                   </h1>
-                  <p className="text-gray-500 text-center">
+                  <p className=" text-center">
                     We have a wide range of cardio training equipment to help
                     you achieve your goals.
                   </p>
@@ -99,12 +99,12 @@ const Services = () => {
 
             <SwiperSlide>
               <div className="bg-white  shadow-xl p-4 h-80  md:mx-0 mx-4">
-                <div className="flex flex-col justify-center items-center">
-                  <MdOutlineFoodBank className="text-6xl text-gray-500" />
-                  <h1 className="text-2xl font-bold text-red-600">
+                <div className="flex flex-col justify-center items-center text-gray-500 hover:hover:text-red-600">
+                  <MdOutlineFoodBank className="text-6xl " />
+                  <h1 className="text-2xl font-bold ">
                     Nutrition
                   </h1>
-                  <p className="text-gray-500 text-center">
+                  <p className=" text-center">
                     We offer a wide range of nutrition programs to help you
                     achieve your goals.
                   </p>
@@ -114,10 +114,10 @@ const Services = () => {
 
             <SwiperSlide>
               <div className="bg-white  shadow-xl p-4 h-80  md:mx-0 mx-4">
-                <div className="flex flex-col justify-center items-center">
-                  <BiDumbbell className="text-6xl text-gray-500" />
-                  <h1 className="text-2xl font-bold text-red-600">Strength</h1>
-                  <p className="text-gray-500 text-center">
+                <div className="flex flex-col justify-center items-center text-gray-500 hover:hover:text-red-600">
+                  <BiDumbbell className="text-6xl " />
+                  <h1 className="text-2xl font-bold ">Strength</h1>
+                  <p className=" text-center">
                     We offer a wide range of strength training programs to help
                     you achieve your goals.
                   </p>

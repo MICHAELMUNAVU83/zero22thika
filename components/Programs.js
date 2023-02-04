@@ -1,10 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import programmes from "./ProgramList";
 import { CgGym } from "react-icons/cg";
-import programpic from "../public/programpic.jpg";
 
 const Programs = () => {
-  const [selectedDay, setSelectedDay] = useState("Monday");
+  const date = new Date();
+  const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+  const [selectedDay, setSelectedDay] = useState(days[date.getDay()]);
+
+  useEffect(() => {
+    if (date.getDay() === 0 || date.getDay() === 6) {
+      setSelectedDay("free");
+    }
+  }, [date.getDay()]);
+ 
+
   return (
     <div
       id="programs"
@@ -21,68 +30,65 @@ const Programs = () => {
         </section>
 
         <section className=" mt-4 flex justify-center  flex-wrap md:gap-6">
-          <p
-            onClick={(e) => {
-              setSelectedDay(e.target.innerText);
-            }}
-            className="bg-red-600 p-2 text-1xl text-white m-3 md:m-0  cursor-pointer"
-          >
-            Monday
-          </p>
-          <p
-            onClick={(e) => {
-              setSelectedDay(e.target.innerText);
-            }}
-            className="bg-red-600 p-2 text-1xl text-white m-3 md:m-0  cursor-pointer"
-          >
-            Tuesday
-          </p>
-          <p
-            onClick={(e) => {
-              setSelectedDay(e.target.innerText);
-            }}
-            className="bg-red-600 p-2 text-1xl text-white m-3 md:m-0 cursor-pointer"
-          >
-            Wednesday
-          </p>
-          <p
-            onClick={(e) => {
-              setSelectedDay(e.target.innerText);
-            }}
-            className="bg-red-600   px-6 py-2 text-1xl text-white m-3 md:m-0  cursor-pointer"
-          >
-            Thursday
-          </p>
-          <p
-            onClick={(e) => {
-              setSelectedDay(e.target.innerText);
-            }}
-            className=" bg-red-600 text-1xl px-6 py-2 text-white m-3 md:m-0  cursor-pointer"
-          >
-            Friday
-          </p>
+          {days.map((day) => (
+            <p
+              key={day}
+              onClick={(e) => {
+                setSelectedDay(e.target.innerText);
+              }}
+              className={
+                day === selectedDay
+                  ? "bg-red-600  text-white px-4 py-2 my-2 rounded-lg mx-2 cursor-pointer"
+                  : "text-black bg-gray-100 px-4 py-2 my-2 rounded-lg  mx-2 cursor-pointer"
+              }
+            >
+              {day}
+            </p>
+          ))}
         </section>
 
         {programmes.programmes.map(
           (program) =>
-            program.day === selectedDay && (
-              <div className="flex justify-center transition-all duration-500 ease-in-out">
+            program.day === selectedDay &&
+            selectedDay !== "free" && (
+              <div
+                className="flex justify-center transition-all duration-500 ease-in-out"
+                key={program.day}
+              >
                 <div className="flex flex-col justify-center items-center border-4 border-red-500 md:w-96 w-80 p-4 m-4 bg-black rounded-md">
+                  <p className="text-white font-bold text-2xl p-4">
+                    Our Aerobic classes
+                  </p>
                   <div className="p-4  w-72 md:w-80 text-center bg-gray-200 rounded-2xl">
-                    <p>
-                      Day :<span className="font-bold">{program.day}</span>
+                    <p className=" font-bold text-red-600">
+                      Day : <span className="text-black">{program.day}</span>
                     </p>
-                    <p>
-                      Class :
-                      <span className="font-bold">{program.exercise}</span>
+                    <p className=" font-bold text-red-600">
+                      Class :{" "}
+                      <span className="text-black">{program.exercise}</span>
                     </p>
-                    <p>
-                      Time :<span className="font-bold">{program.time}</span>
-                    </p>
+                    {program.time && (
+                      <p className=" font-bold text-red-600">
+                        Time :{" "}
+                        <span className="text-black">{program.time}</span>
+                      </p>
+                    )}
                   </div>
                 </div>
               </div>
             )
+        )}
+        {selectedDay === "free" && (
+          <div className="flex justify-center">
+            <div className="flex flex-col justify-center items-center border-4 border-red-500 md:w-96 w-80 p-4 m-4 bg-black rounded-md">
+             
+              <div className="p-4  w-72 md:w-80 text-center bg-gray-200 rounded-2xl">
+                We do not have any classes on weekends.
+                Join us for Classes from Monday to Friday
+                from 6:00 am to 7:00 pm
+              </div>
+            </div>
+          </div>
         )}
       </div>
     </div>

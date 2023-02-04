@@ -9,7 +9,7 @@ import { IoLocationSharp } from "react-icons/io5";
 const Footer = () => {
   return (
     <div className="footer-img bg-cover bg-center bg-no-repeat   h-full">
-      <div className="h-full  bg-black/80">
+      <div className="h-full  bg-black/70">
         <section className="flex flex-col md:flex-row justify-center md:items-center text-center  md:justify-around h-full">
           <div>
             <h1 className="text-2xl font-bold text-red-600">Useful Links</h1>
@@ -44,7 +44,7 @@ const Footer = () => {
           <div>
             <h1 className="text-2xl font-bold text-red-600">Contact Us</h1>
 
-            <div className="text-white flex flex-col items-start">
+            <div className="text-white flex flex-col md:items-start items-center">
               <div className="flex items-center">
                 <Link
                   href="/"

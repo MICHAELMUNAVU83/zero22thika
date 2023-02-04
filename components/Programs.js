@@ -65,7 +65,7 @@ const Programs = () => {
                     </p>
                     <p className=" font-bold text-red-600">
                       Class :{" "}
-                      <span className="text-black">{program.exercise}</span>
+                      <span className="text-black ">{program.exercise}</span>
                     </p>
                     {program.time && (
                       <p className=" font-bold text-red-600">

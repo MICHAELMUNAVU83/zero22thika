@@ -8,6 +8,7 @@ import Trainers from "@/components/Trainers";
 import Programs from "@/components/Programs";
 import Maps from "@/components/Maps";
 export default function Home() {
+ 
   return (
     <>
       <Head>
@@ -19,14 +20,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero />
-      <About />
-      <Services />
-      <Pricing />
-      <Programs />
-      <Trainers />
-      <Maps />
-      <Footer />
+      
+          <Hero />
+          <About />
+          <Services />
+          <Pricing />
+          <Programs />
+          <Trainers />
+          <Maps />
+          <Footer />
+      
     </>
   );
 }

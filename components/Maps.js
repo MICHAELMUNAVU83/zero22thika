@@ -12,7 +12,9 @@ const Maps = () => {
           <CgGym className="text-4xl mx-2  text-red-600" /> Our Location
         </h1>
 
-        <h1 className="  text-white font-bold text-4xl">HILTON TOWERS, 6TH FLOOR</h1>
+        <h1 className="  text-white font-bold text-4xl">
+          HILTON TOWERS, 6TH FLOOR
+        </h1>
       </section>
       <Map
         style={{
@@ -40,6 +42,7 @@ const Maps = () => {
           offsetLeft={-20}
           offsetTop={-10}
         >
+          <p className="bg-red-600 font-bold px-2 py-1 text-white rounded-xl">Zero 22 Gym</p>
           <HiLocationMarker className="text-5xl text-red-600" />
         </Marker>
       </Map>

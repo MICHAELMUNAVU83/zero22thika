@@ -46,12 +46,7 @@ const Footer = () => {
 
             <div className="text-white flex flex-col md:items-start items-center">
               <div className="flex items-center">
-                <Link
-                  href="/"
-                  rel="noreferrer"
-                  target="_blank"
-                  className="flex items-center"
-                >
+                <Link href="/" className="flex items-center">
                   <IoLocationSharp className="mx-2" /> Hanton Towers, Thika
                   Kenya
                 </Link>

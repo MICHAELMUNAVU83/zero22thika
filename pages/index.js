@@ -6,6 +6,7 @@ import Pricing from "@/components/Pricing";
 import Footer from "@/components/Footer";
 import Trainers from "@/components/Trainers";
 import Programs from "@/components/Programs";
+import Maps from "@/components/Maps";
 export default function Home() {
   return (
     <>
@@ -21,6 +22,7 @@ export default function Home() {
       <Pricing />
       <Programs />
       <Trainers />
+      <Maps />
       <Footer />
     </>
   );

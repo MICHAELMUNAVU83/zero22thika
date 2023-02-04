@@ -1,14 +1,18 @@
 import React from "react";
 import "mapbox-gl/dist/mapbox-gl.css";
 import Map, { Marker } from "react-map-gl";
-import {HiLocationMarker} from 'react-icons/hi'
+import { HiLocationMarker } from "react-icons/hi";
 const Maps = () => {
   return (
     <Map
       style={{
         margin: "auto",
-        marginTop: "20px",
-        height: "500px",
+     
+        marginBottom: "20px",
+        height: "400px",
+        cursor: "pointer",
+        width: "70%",
+
         borderRadius: "5px",
       }}
       initialViewState={{
@@ -27,7 +31,7 @@ const Maps = () => {
         offsetLeft={-20}
         offsetTop={-10}
       >
-        <HiLocationMarker className="text-4xl text-red-600" />
+        <HiLocationMarker className="text-5xl text-red-600" />
       </Marker>
     </Map>
   );

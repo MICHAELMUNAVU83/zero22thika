@@ -20,13 +20,13 @@ const About = () => {
             <h1 className="text-4xl font-bold krona text-red-600 flex">
               <CgGym className="text-4xl text-red-600 " /> ABOUT US
             </h1>
-            <h2 className="text-2xl font-bold text-break alfa my-3">
+            <h2 className="text-2xl font-bold text-break  my-3">
               <p>SAFE BODY BUILDING </p>
               <p>SAFE BODY BUILDING </p>
               <p>SAFE BODY BUILDING </p>
             </h2>
 
-            <p className="text-lg comfortaa text-gray-500 w-80 my-3 ">
+            <p className="text-lg text-gray-500 w-80 my-3 ">
               Brook presents your services with flexible, convenient and cdpose
               layouts. You can select your favorite layouts & elements for cular
               ts with unlimited ustomization possibilities. Pixel-perfect

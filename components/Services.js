@@ -18,10 +18,10 @@ const Services = () => {
             {" "}
             <CgGym className="text-4xl mx-2 text-red-600" /> Our Services
           </h1>
-          <h1 className="text-white font-semibold dancing text-4xl">
+          <h1 className="text-white font-semibold  text-4xl">
             PUSH YOUR LIMITS FORWARD
           </h1>
-          <h1 className="text-white font-semibold  dancing text-4xl">WE OFFER TO YOU</h1>
+          <h1 className="text-white font-semibold   text-4xl">WE OFFER TO YOU</h1>
         </section>
 
         <section className="mt-10 max-w-[1240px] m-auto">

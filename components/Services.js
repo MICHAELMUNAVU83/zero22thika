@@ -1,5 +1,4 @@
 import React from "react";
-import { AiOutlineLine } from "react-icons/ai";
 import { GiWeightLiftingUp } from "react-icons/gi";
 import { MdOutlineFoodBank } from "react-icons/md";
 import { BiDumbbell } from "react-icons/bi";
@@ -7,15 +6,16 @@ import { FaRunning } from "react-icons/fa";
 import { GiMuscleUp } from "react-icons/gi";
 import { GiHealthPotion } from "react-icons/gi";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { CgGym } from "react-icons/cg";
 import { Autoplay, Pagination } from "swiper";
-import 'swiper/css';
+import "swiper/css";
 const Services = () => {
   return (
     <div className="service-img bg-cover bg-center bg-fixed h-[700px] w-full">
       <section className="flex flex-col justify-start ml-10 pt-10">
         <h1 className="flex text-4xl text-white flex-row">
           {" "}
-          <AiOutlineLine className="text-4xl mx-2 text-white" /> Our Services
+          <CgGym className="text-4xl mx-2 text-white" /> Our Services
         </h1>
         <h1 className="text-white font-bold text-4xl">
           PUSH YOUR LIMITS FORWARD
@@ -32,7 +32,6 @@ const Services = () => {
           autoplay={{
             delay: 2500,
             disableOnInteraction: true,
-            
           }}
           pagination={{
             clickable: true,

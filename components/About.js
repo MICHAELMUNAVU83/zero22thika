@@ -1,21 +1,20 @@
 import React from "react";
 import Image from "next/image";
 import aboutimage from "../public/about.jpg";
-import { MdOutlineLinearScale } from "react-icons/md";
-
+import {CgGym} from "react-icons/cg"
 const About = () => {
   return (
     <div >
       <div className="py-10">
         <section className="flex justify-around align-center  flex-col md:flex-row">
           {/* Right side */}
-          <div className="md:shadow-2xl md:shadow-red-500 flex justify-center items-center ">
+          <div className="md:shadow-2xl md:shadow-red-600 flex justify-center items-center ">
             <Image src={aboutimage} alt="aboutimage" className=" w-96 mx-2 px-2 md:mx-0 my-3 md:rounded-lg md:p-0 md:my-0 rounded-2xl" />
           </div>
           {/* Left side  */}
                   <div className="ml-10 ">
             <h1 className="text-4xl font-bold text-red-600 flex">
-              <MdOutlineLinearScale className="text-4xl text-red-600" /> ABOUT
+              <CgGym   className="text-4xl text-red-600" /> ABOUT
               US
             </h1>
             <h2 className="text-2xl font-bold text-break my-3">
@@ -36,7 +35,7 @@ const About = () => {
             </p>
 
             <button className="bg-red-600 text-white px-6 py-4 my-3 ">
-              Read More
+             We Are The Best
             </button>
           </div>
         </section>

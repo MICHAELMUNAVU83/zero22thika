@@ -11,8 +11,7 @@ const NavBar = () => {
       if (window.scrollY >= 80) {
         setColor("black");
         setTextColor("white");
-      } 
-      else {
+      } else {
         setColor("transparent");
         setTextColor("white");
       }
@@ -30,25 +29,26 @@ const NavBar = () => {
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
-          <h1  className="font-bold text-4xl text-red-600">
-            ZERO 22
-          </h1>
+          <h1 className="font-bold text-4xl text-red-600">ZERO 22</h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-          <Link href="/">
-            <li className="p-4">Home</li>
+          <Link href="/#about">
+            <li className="p-4">About</li>
           </Link>
-          <Link href="/#gallery">
-            <li className="p-4">Gallery</li>
+          <Link href="/#services">
+            <li className="p-4">Services</li>
           </Link>
-          <Link href="/work">
-            <li className="p-4">Work</li>
+          <Link href="/#pricing">
+            <li className="p-4">Pricing</li>
           </Link>
-          <Link href="/contact">
-            <li className="p-4">Contact</li>
+          <Link href="/#programs">
+            <li className="p-4">Programs</li>
+          </Link>
+          <Link href="/#trainers">
+            <li className="p-4">Our Team</li>
           </Link>
           <Link href="/" className="p-4 bg-red-600 text-white ">
-            <li>Book Now</li>
+            <li>Join Us</li>
           </Link>
         </ul>
 
@@ -56,15 +56,13 @@ const NavBar = () => {
         <div className="sm:hidden block z-10">
           {nav ? (
             <AiOutlineClose
-              className="text-4xl"
+              className="text-4xl text-red-600"
               onClick={toggleNav}
-              style={{ color: `${textColor}` }}
             />
           ) : (
             <AiOutlineMenu
-              className="text-4xl"
+              className="text-4xl text-red-600"
               onClick={toggleNav}
-              style={{ color: `${textColor}` }}
             />
           )}
         </div>
@@ -76,18 +74,21 @@ const NavBar = () => {
               : "sm:hidden absolute top-0 right-0 left-[-100%] bottom-0 flex justify-center items-center w-full h-screen bg-black/70 text-white duration-300 ease-in-out"
           }
         >
-          <ul onClick={toggleNav}>
-            <Link href="/" className="p-4 text-4xl hover:text-gray-500">
-              <li>Home</li>
+          <ul onClick={toggleNav} className="text-center">
+            <Link href="/#about">
+              <li className="p-4 text-4xl hover:text-red-600">About</li>
             </Link>
-            <Link href="/#gallery" className="p-4 text-4xl hover:text-gray-500">
-              <li>Gallery</li>
+            <Link href="/#services">
+              <li className="p-4 text-4xl hover:text-red-600">Services</li>
             </Link>
-            <Link href="/work" className="p-4 text-4xl hover:text-gray-500">
-              <li>Work</li>
+            <Link href="/#pricing">
+              <li className="p-4 text-4xl hover:text-red-600">Pricing</li>
             </Link>
-            <Link href="/contact" className="p-4 text-4xl hover:text-gray-500">
-              <li>Contact</li>
+            <Link href="/#programs">
+              <li className="p-4 text-4xl hover:text-red-600">Programs</li>
+            </Link>
+            <Link href="/#trainers">
+              <li className="p-4 text-4xl hover:text-red-600">Our Team</li>
             </Link>
           </ul>
         </div>

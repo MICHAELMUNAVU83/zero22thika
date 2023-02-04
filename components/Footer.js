@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import { IoLogoWhatsapp } from "react-icons/io5";
-import { AiOutlineInstagram } from "react-icons/ai";
 import { IoCall } from "react-icons/io5";
 const Footer = () => {
   return (

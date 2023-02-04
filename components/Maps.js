@@ -11,7 +11,7 @@ const Maps = () => {
         marginBottom: "20px",
         height: "400px",
         cursor: "pointer",
-        width: "70%",
+        width: "80%",
 
         borderRadius: "5px",
       }}

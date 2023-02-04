@@ -76,19 +76,19 @@ const NavBar = () => {
         >
           <ul onClick={toggleNav} className="text-center">
             <Link href="/#about">
-              <li className="p-4 text-4xl hover:text-red-600">About</li>
+              <li className="p-4 text-4xl border-b border-red-600">About</li>
             </Link>
             <Link href="/#services">
-              <li className="p-4 text-4xl hover:text-red-600">Services</li>
+              <li className="p-4 text-4xl border-b border-red-600">Services</li>
             </Link>
             <Link href="/#pricing">
-              <li className="p-4 text-4xl hover:text-red-600">Pricing</li>
+              <li className="p-4 text-4xl border-b border-red-600">Pricing</li>
             </Link>
             <Link href="/#programs">
-              <li className="p-4 text-4xl hover:text-red-600">Programs</li>
+              <li className="p-4 text-4xl border-b border-red-600">Programs</li>
             </Link>
             <Link href="/#trainers">
-              <li className="p-4 text-4xl hover:text-red-600">Our Team</li>
+              <li className="p-4 text-4xl border-b border-red-600">Our Team</li>
             </Link>
           </ul>
         </div>

@@ -3,9 +3,15 @@ import { AiFillDownCircle } from "react-icons/ai";
 import Link from "next/link";
 import Image from "next/image";
 import logo1 from "../public/logo1.png";
+import { motion } from "framer-motion";
 const Hero = () => {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+      
+    >
       <div className=" bg-cover custom-img bg-fixed h-[700px] w-full">
         <div className="bg-gradient-to-r from-black/75 to-transparent h-full">
           <div className="flex justify-center flex-col items-center inset-0 z-10 h-full text-white  md:text-5xl  text-center  font-bold text-2xl">
@@ -22,7 +28,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

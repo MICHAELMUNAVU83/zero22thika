@@ -2,9 +2,19 @@ import React from "react";
 import Image from "next/image";
 import aboutimage from "../public/about.jpg";
 import { CgGym } from "react-icons/cg";
+import { motion } from "framer-motion";
+import {useScroll} from "framer-motion";
 const About = () => {
+  
   return (
-    <div id="about">
+    <motion.div
+      id="about"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+    
+    >
       <div className="py-10">
         <section className="flex justify-around align-center  flex-col md:flex-row">
           {/* Right side */}
@@ -27,9 +37,9 @@ const About = () => {
             </h2>
 
             <p className="text-lg text-gray-500 w-80 my-3 ">
-              Zero 22 is a gym that is located in the heart of the thika. We have
-              the best trainers and the best equipment. We are the best gym in
-              town if you want to look good and feel good.
+              Zero 22 is a gym that is located in the heart of the thika. We
+              have the best trainers and the best equipment. We are the best gym
+              in town if you want to look good and feel good.
             </p>
             <p className="text-md text-gray-500 w-80 my-3 krona">
               Don't be left behind, join us today and get the best out of your
@@ -41,7 +51,7 @@ const About = () => {
           </div>
         </section>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

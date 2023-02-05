@@ -7,7 +7,24 @@ import Footer from "@/components/Footer";
 import Trainers from "@/components/Trainers";
 import Programs from "@/components/Programs";
 import Maps from "@/components/Maps";
+import { motion, useScroll, useInView } from "framer-motion";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 export default function Home() {
+  const fadeInUp = {
+    start: {
+      opacity: 0,
+
+      translateX: 0,
+      translateY: 100,
+      translateZ: 0,
+    },
+    end: {
+      opacity: 1,
+      translateZ: 0,
+    },
+  };
+
   return (
     <>
       <Head>
@@ -19,15 +36,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <Hero />
-      <About />
-      <Services />
-      <Pricing />
-      <Programs />
-      <Trainers />
-      <Maps />
-      <Footer />
+      
+        <Hero />
+        <About />
+        <Services />
+        <Pricing />
+        <Programs />
+        <Trainers />
+        <Maps />
+        <Footer />
+      
     </>
   );
 }

@@ -3,7 +3,7 @@ import { BiDumbbell } from "react-icons/bi";
 import { AiOutlineCheck } from "react-icons/ai";
 const Pricing = () => {
   return (
-    <div id="pricing" className="bg-black h-full pb-20 md:h-[80vh]">
+    <div id="pricing" className="bg-black h-full pb-20 md:h-[90vh]">
       <h1 className="text-white text-5xl text-center pt-20 font-bold font-roboto">
         PRICING
       </h1>

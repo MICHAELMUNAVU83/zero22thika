@@ -8,7 +8,7 @@ import Trainers from "@/components/Trainers";
 import Programs from "@/components/Programs";
 import Maps from "@/components/Maps";
 import { motion, useScroll, useInView } from "framer-motion";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export default function Home() {
   const fadeInUp = {
@@ -34,18 +34,17 @@ export default function Home() {
           content="This is a webiste for Zero22 Gym in Thika"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo1.png" />
       </Head>
-      
-        <Hero />
-        <About />
-        <Services />
-        <Pricing />
-        <Programs />
-        <Trainers />
-        <Maps />
-        <Footer />
-      
+
+      <Hero />
+      <About />
+      <Services />
+      <Pricing />
+      <Programs />
+      <Trainers />
+      <Maps />
+      <Footer />
     </>
   );
 }

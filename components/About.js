@@ -3,7 +3,6 @@ import Image from "next/image";
 import aboutimage from "../public/about.jpg";
 import { CgGym } from "react-icons/cg";
 import { motion } from "framer-motion";
-import {useScroll} from "framer-motion";
 const About = () => {
   
   return (

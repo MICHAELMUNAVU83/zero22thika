@@ -5,7 +5,7 @@ import { CgGym } from "react-icons/cg";
 const Programs = () => {
   const date = new Date();
   const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
-  const [selectedDay, setSelectedDay] = useState(days[date.getDay()]);
+  const [selectedDay, setSelectedDay] = useState(days[date.getDay() - 1]);
 
   useEffect(() => {
     if (date.getDay() === 0 || date.getDay() === 6) {
